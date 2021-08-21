@@ -1,5 +1,4 @@
-// isdigit()
-// checks for a digit (0 through 9)
+// Checks for a digit (0 through 9)
 
 #include "libft.h"
 

@@ -1,5 +1,4 @@
-// isascii()
-// checks whether c is a 7-bit unsigned char value that fits into
+// Checks whether c is a 7-bit unsigned char value that fits into
 // the ASCII character set.
 
 #include "libft.h"

@@ -1,5 +1,4 @@
-// isprint()
-// checks for any printable character including space.
+// Checks for any printable character including space.
 
 #include "libft.h"
 

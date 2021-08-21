@@ -1,5 +1,4 @@
-// isalnum()
-// checks for an alphanumeric character; it is equivalent to
+// Checks for an alphanumeric character; it is equivalent to
 // (isalpha(c) || isdigit(c)).
 
 #include "libft.h"
