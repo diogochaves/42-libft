@@ -1,12 +1,27 @@
-FLAGS = -Wall -Wextra -Werror
+CC		:= clang
+CFLAGS	:= -Wall -Wextra -Werror
+LIB		:= ar -rc
+RM		:= rm -f
 
-$(NAME):
+NAME	:= libft.a
+HEADER	:= libft.h
+SRCS	:= ft_isalpha.c
+OBJS	:= $(SRCS:%.c=%.o)
 
-all:
+all:	$(NAME)
+
+$(NAME):$(OBJS) $(HEADER)
+		$(LIB) $(NAME) $(OBJS)
+
+%.o:	%.c $(HEADER)
+		$(CC) $(CFLAGS) -c -o $@ $<
 
 clean:
+		$(RM) $(OBJS)
 
-fclean:
+fclean:	clean
+		$(RM) $(NAME)
 
-re:
+re:		fclean all
 
+.PHONY: all clean fclean re
