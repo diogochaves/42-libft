@@ -1,12 +1,19 @@
-CC		:= clang
-CFLAGS	:= -Wall -Wextra -Werror
-LIB		:= ar -rc
-RM		:= rm -f
+CC		:=	clang
+CFLAGS	:=	-Wall -Wextra -Werror
+LIB		:=	ar -rc
+RM		:=	rm -f
 
-NAME	:= libft.a
-HEADER	:= libft.h
-SRCS	:= ft_isalpha.c
-OBJS	:= $(SRCS:%.c=%.o)
+NAME	:=	libft.a
+HEADER	:=	libft.h
+
+SRCS	:=	ft_isalpha.c \
+			ft_isdigit.c \
+			ft_isallnum.c \
+			ft_isascii.c \
+			ft_isprint.c \
+			ft_strlen.c
+
+OBJS	:=	$(SRCS:%.c=%.o)
 
 all:	$(NAME)
 
