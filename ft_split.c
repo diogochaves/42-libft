@@ -11,69 +11,60 @@
 
 #include "libft.h"
 
-size_t	ft_strclean(char *b, const char *s, char c)
+static size_t	token_count(char const *s, char c)
 {
-	size_t	counter;
-	size_t	i;
-	size_t	len;
+	size_t	flag;
+	size_t	count;
 
-	counter = 0;
-	i = 0;
-	while (*s == c)
-		s++;
-	if (*s == '\0')
-		return 0;
-	len = ft_strlen(s);
-	while (s[len-1] == c)
-		len--;
-	while (i < len)
+	flag = 0;
+	count = 0;
+	while (*s != '\0')
 	{
-		if (s[i] != c)
+		if (*s != c && !flag)
 		{
-			*b = s[i];
-			b++;
+			count++;
+			flag = 1;
 		}
-		else if (*(b - 1) != c)
+		else if (*s == c)
 		{
-			*b = s[i];
-			b++;
-			counter++;
+			flag = 0;
+		}
+		s++;
+	}
+	return (count);
+}
+
+static void	create_tokens(char **group, const char *s, char c)
+{
+	size_t	i;
+	size_t	j;
+	int		pos;
+
+	i = 0;
+	j = 0;
+	pos = -1;
+	while (i <= ft_strlen(s))
+	{
+		if (s[i] != c && pos == -1)
+			pos = i;
+		else if ((s[i] == c || i == ft_strlen(s)) && pos != -1)
+		{
+			group[j] = ft_substr(s, pos, i - pos);
+			j++;
+			pos = -1;
 		}
 		i++;
 	}
-	*b = '\0';
-	return (counter + 1);
+	group[j] = 0;
 }
 
 char	**ft_split(char const *s, char c)
 {
-	size_t	counter;
-	size_t	last;
-	size_t	i;
-	size_t	j;
-	char	*buffer;
-	char	**split;
+	char	**group;
 
-	buffer = malloc(sizeof(s) * (ft_strlen(s) + 1));
-	counter = ft_strclean(buffer, s, c);
-	if (!counter)
-		return 0;
-	split = malloc(sizeof(char *) * (counter + 1));
-	i = 0;
-	j = 0;
-	last = 0;
-	while(buffer[i] != '\0' || counter)
-	{
-		if (buffer[i] == c || buffer[i] == '\0')
-		{
-			split[j] = ft_substr(buffer, last, i - last);
-			j++;
-			last = i + 1;
-			counter--;
-		}
-		i++;
-	}
-	split[j] = 0;
-	free(buffer);
-	return (split);
+	group = malloc((token_count(s, c) + 1) * sizeof(char *));
+	if (!s || !group)
+		return (0);
+	create_tokens(group, s, c);
+	return (group);
 }
