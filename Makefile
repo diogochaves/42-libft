@@ -41,7 +41,17 @@ SRCS	:=	ft_isalpha.c \
 			ft_putendl_fd.c \
 			ft_putnbr_fd.c
 
+SRCSB	:=	ft_lstnew.c \
+			ft_lstadd_front.c \
+			ft_lstsize.c \
+			ft_lstlast.c \
+			ft_lstadd_back.c \
+			ft_lstdelone.c
+
+
 OBJS	:=	$(SRCS:%.c=%.o)
+
+BONUS	:=	$(SRCSB:%.c=%.o)
 
 all:	$(NAME)
 
@@ -55,8 +65,11 @@ clean:
 		$(RM) $(OBJS)
 
 fclean:	clean
-		$(RM) $(NAME)
+		$(RM) $(NAME) $(BONUS)
 
 re:		fclean all
 
-.PHONY: all clean fclean re
+bonus:	all $(BONUS)
+		$(LIB) $(NAME) $(BONUS)
+
+.PHONY: all clean fclean re bonus
