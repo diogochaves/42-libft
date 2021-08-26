@@ -1,8 +1,8 @@
-// memcpy - copy memory area
-// The  memcpy()  function  copies  n bytes from memory area src to memory area
-// dest.  The memory areas must not overlap.  Use memmove(3) if the memory
-// areas do overlap.
-// The memcpy() function returns a pointer to dest.
+// DESCRIPTION: Copies N bytes from memory area SRC to memory area DEST.
+// The memory areas must not overlap.
+// PARAMETERS: #1. The pointer to the memory area DEST. | #2. The pointer to
+// the memory area SCR. | #3. The quantity of bytes to copy.
+// RETURN: A pointer to the memory area DEST.
 
 #include "libft.h"
 
