@@ -1,10 +1,12 @@
-// memchr - scan memory for a character
-// The  memchr() function scans the initial n bytes of the memory area pointed
-// to by s for the first instance of c.  Both c and the bytes of the memory
-// area pointed to by s are interpreted as unsigned char.
-//
-// The memchr() function returns a pointer to the matching byte or NULL if the
-// character does not occur in the given memory area.
+// DESCRIPTION: Scans the initial N bytes of the memory area pointed to by S
+// for the first instance of C.
+// PARAMETERS: #1. the memmory area to search. | #2. the char to find.
+// RETURN: A pointer to the matching byte or NULL if the character does not
+// occur in the given memory area
+
+/*
+ Both C and the bytes of the memory area pointed to by S are interpreted as unsigned char.
+*/
 
 #include "libft.h"
 

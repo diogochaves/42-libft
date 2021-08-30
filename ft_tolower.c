@@ -1,6 +1,7 @@
-// If c is an uppercase letter, tolower() returns its lowercase equivalent, if
-// a lowercase representation exists in the current locale.   Otherwise, it
-// returns c.
+// DESCRIPTION: Convert a uppercase letter to lowercase.
+// PARAMETERS: #1. the char to convert.
+// RETURN: If c is a uppercase letter, returns its lowercase equivalent.
+// Otherwise, it returns c.
 
 #include "libft.h"
 

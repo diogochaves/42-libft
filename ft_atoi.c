@@ -1,10 +1,12 @@
-// atoi - convert a string to an integer
-// The atoi() function converts the initial portion of the string pointed to by
-// nptr to int.  The behavior is the same as strtol(nptr, NULL, 10);
-//
-// The string may begin with an arbitrary amount of white space (as
-// determined  by  isspace(3))  followed  by  a  single optional  '+'  or  '-'
-// sign.
+// DESCRIPTION: converts the initial portion of the string pointed to by
+// NPTR to int.
+// PARAMETERS: #1. the char to convert.
+// RETURN: The integer value.
+
+/*
+ The string may begin with an arbitrary amount of white space (as determined by
+ isspace(3)) followed by a single optional '+' or '-' sign.
+*/
 
 #include "libft.h"
 

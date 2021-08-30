@@ -1,6 +1,7 @@
-// If  c is a lowercase letter, toupper() returns its uppercase equivalent, if
-// an uppercase representation exists in the current locale.  Otherwise, it
-// returns c.
+// DESCRIPTION: Convert a lowercase letter to uppercase.
+// PARAMETERS: #1. the char to convert.
+// RETURN: If c is a lowercase letter, returns its uppercase equivalent.
+// Otherwise, it returns c.
 
 #include "libft.h"
 

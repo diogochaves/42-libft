@@ -1,9 +1,8 @@
-// strncmp - compare two strings
-// The  strcmp() function compares the two strings s1 and s2.  It returns an
-// integer less than, equal to, or greater than zero if s1 is found,
-// respectively, to be less than, to match, or be greater than s2.
-// The strncmp() function is similar, except it compares only the first (at
-// most) n bytes of s1 and s2.
+// DESCRIPTION: Compares the first (at most) N bytes the two strings S1 and S2.
+// PARAMETERS: #1. the 1st string to compare. | #2. the 2nd string to compare. |
+// #3. the number of bytes to compare.
+// RETURN: An integer less than, equal to, or greater than zero if S1 is found,
+// respectively, to be less than, to match, or be greater than S2.
 
 #include "libft.h"
 

@@ -1,8 +1,8 @@
-// calloc - allocate dynamic memory
-// The  calloc() function allocates memory for an array of nmemb elements of
-// size bytes each and returns a pointer to the allocated memory.  The memory
-// is set to zero.  If nmemb or size is 0, then calloc() returns either NULL,
-// or  a  unique pointer value that can later be successfully passed to free().
+// DESCRIPTION: Allocates memory for an array of NMEMB elements of SIZE bytes
+// each. The memory is set to zero.
+// PARAMETERS: #1. the number of elements. | #2. the size of each element.
+// RETURN: If NMEMB or SIZE is 0, then it returns either NULL, or a unique
+// pointer value that can later be successfully passed to free().
 
 #include "libft.h"
 
