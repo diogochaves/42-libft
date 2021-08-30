@@ -5,7 +5,8 @@
 // occur in the given memory area
 
 /*
- Both C and the bytes of the memory area pointed to by S are interpreted as unsigned char.
+ Both C and the bytes of the memory area pointed to by S are interpreted
+ as unsigned char.
 */
 
 #include "libft.h"
