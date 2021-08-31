@@ -1,6 +1,12 @@
-// ft_putnbr_fd
-//
-// Outputs the integer ’n’ to the given file descriptor.
+// DESCRIPTION
+// Outputs the integer N to the given file descriptor.
+
+// PARAMETERS
+// #1. The integer to output.
+// #2. The file descriptor on which to write.
+
+// RETURN VALUE
+// -
 
 #include "libft.h"
 

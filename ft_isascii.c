@@ -1,7 +1,12 @@
-// DESCRIPTION: Checks whether c is a 7-bit unsigned char value that fits into
-// the ASCII character set.
-// PARAMETERS: #1. the char to check.
-// RETURN: 1 if the character c falls into the tested class, and 0 if not.
+// DESCRIPTION
+// Checks whether c is a 7-bit unsigned char value that fits into the ASCII
+// character set.
+
+// PARAMETERS
+// #1. the char to check.
+
+// RETURN VALUE
+// 1 if the character C falls into the tested class, and 0 if not.
 
 #include "libft.h"
 

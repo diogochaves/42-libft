@@ -1,9 +1,13 @@
-// DESCRIPTION: Erases the data in the N bytes of the memory starting at the
-// location pointed to by S, by writing zeroes (bytes containing '\0') to that
-// area.
-// PARAMETERS: #1. The pointer to the memory area. | #2. The quantity of bytes
-// to erase.
-// RETURN : -
+// DESCRIPTION
+// Erases the data in the N bytes of the memory starting at the location
+// pointed to by S, by writing zeroes (bytes containing '\0') to that area.
+
+// PARAMETERS
+// #1. The pointer to the memory area.
+// #2. The quantity of bytes to erase.
+
+// RETURN VALUE
+// -
 
 #include "libft.h"
 

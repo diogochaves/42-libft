@@ -1,12 +1,13 @@
-// DESCRIPTION: converts the initial portion of the string pointed to by
-// NPTR to int.
-// PARAMETERS: #1. the char to convert.
-// RETURN: The integer value.
+// DESCRIPTION
+// Converts the initial portion of the string pointed to by NPTR to int.
+// The string may begin with an arbitrary amount of white space (as determined
+// by isspace(3)) followed by a single optional '+' or '-' sign.
 
-/*
- The string may begin with an arbitrary amount of white space (as determined by
- isspace(3)) followed by a single optional '+' or '-' sign.
-*/
+// PARAMETERS
+// #1. the char to convert.
+
+// RETURN VALUE
+// The integer value.
 
 #include "libft.h"
 

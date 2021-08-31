@@ -1,11 +1,13 @@
-// ft_strmapi
-//
-// Description
-// Applies the function ’f’ to each character of the string ’s’ to create a new
-// string (with malloc(3)) resulting from successive applications of ’f’.
-//
-// Return value
-// The string created from the successive applications of ’f’. Returns NULL if
+// DESCRIPTION
+// Applies the function F to each character of the string S to create a new
+// string (with malloc(3)) resulting from successive applications of F.
+
+// PARAMETERS
+// #1. The string on which to iterate.
+// #2. The function to apply to each character.
+
+// RETURN VALUE
+// The string created from the successive applications of F. Returns NULL if
 // the allocation fails.
 
 #include "libft.h"

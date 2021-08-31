@@ -1,8 +1,14 @@
-// DESCRIPTION: Fills the first N bytes of the memory area pointed to by S
-// with the constant byte C.
-// PARAMETERS: #1. The pointer to the memory area. | #2. The byte to set. |
+// DESCRIPTION
+// Fills the first N bytes of the memory area pointed to by S with the constant
+// byte C.
+
+// PARAMETERS
+// #1. The pointer to the memory area.
+// #2. The byte to set.
 // #3. The quantity of bytes to set.
-// RETURN: A pointer to the memory area S.
+
+// RETURN VALUE
+// A pointer to the memory area S.
 
 #include "libft.h"
 

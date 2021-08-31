@@ -1,7 +1,12 @@
-// DESCRIPTION: Convert a lowercase letter to uppercase.
-// PARAMETERS: #1. the char to convert.
-// RETURN: If c is a lowercase letter, returns its uppercase equivalent.
-// Otherwise, it returns c.
+// DESCRIPTION
+// Convert a lowercase letter to uppercase.
+
+// PARAMETERS
+// #1. the char to convert.
+
+// RETURN VALUE
+// If C is a lowercase letter, returns its uppercase equivalent. Otherwise, it
+// returns C.
 
 #include "libft.h"
 

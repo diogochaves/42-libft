@@ -1,7 +1,12 @@
-// DESCRIPTION: Duplicates the string S.
-// PARAMETERS: #1. the string to duplicate.
-// RETURN: A pointer to the duplicated string. It returns NULL if insufficient
-// memory was available, with errno set to indicate the cause of the error.
+// DESCRIPTION
+// Duplicates the string S.
+
+// PARAMETERS
+// #1. the string to duplicate.
+
+// RETURN VALUE
+// A pointer to the duplicated string. It returns NULL if insufficient memory
+// was available, with errno set to indicate the cause of the error.
 
 #include "libft.h"
 

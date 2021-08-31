@@ -1,8 +1,14 @@
-// DESCRIPTION: Copies N bytes from memory area SRC to memory area DEST.
-// The memory areas may overlap.
-// PARAMETERS: #1. The pointer to the memory area DEST. | #2. The pointer to
-// the memory area SCR. | #3. The quantity of bytes to copy.
-// RETURN: A pointer to the memory area DEST.
+// DESCRIPTION
+// Copies N bytes from memory area SRC to memory area DEST. The memory areas
+// may overlap.
+
+// PARAMETERS
+// #1. The pointer to the memory area DEST.
+// #2. The pointer to the memory area SCR.
+// #3. The quantity of bytes to copy.
+
+// RETURN VALUE
+// A pointer to the memory area DEST.
 
 /*
  If the destination is above the source, we have to copy

@@ -1,6 +1,13 @@
-// ft_putchar_fd
-//
-// Outputs the character ’c’ to the given file descriptor.
+// DESCRIPTION
+// Outputs the character C to the given file descriptor.
+
+// PARAMETERS
+// #1. The character to output.
+// #2. The file descriptor on which to write.
+
+// RETURN VALUE
+// -
+
 
 #include "libft.h"
 
