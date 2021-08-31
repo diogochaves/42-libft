@@ -1,16 +1,39 @@
 #include <stdio.h>
+#include <string.h>
+#include <unistd.h>
 
-
-int	ft_memcmp(const void *s1, const void *s2, size_t n)
+char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
-	printf("N: %zu | s1: %i | s2: %i\n", n, (unsigned int)*s1, (unsigned int)*s2);
-	while (n--)
+	char	*marker;
+	size_t	i;
+
+	marker = (char *)big;
+	i = 0;
+	while (*big && len-- > 0 && little[i])
 	{
-		if ((unsigned char *)s1 - (unsigned char *)s2)
-			return ((unsigned char *)s1 - (unsigned char *)s2) ;
-		s1++;
-		s2++;
+		printf("%c | ", *big );
+		if (*big == little[i++])
+		{
+			printf("%c\n", *big );
+			if (!marker)
+				marker = (char *)big;
+		}
+		else
+		{
+			printf("\n" );
+			marker = 0;
+			i = 0;
+			if (*big == little[i])
+			{
+				marker = (char *)big;
+				i++;
+			}
+		}
+		big++;
+		printf("%zu\n", i );
 	}
+	if (!little[i])
+		return (marker);
 	return (0);
 }
 
@@ -21,14 +44,9 @@ void	check(int i)
 
 int	main(void)
 {
-	char s[] = {-128, 0, 127, 0};
-	char sCpy[] = {-128, 0, 127, 0};
-	char s2[] = {0, 0, 127, 0};
-	char s3[] = {0, 0, 42, 0};
-	/* 1 */ check(!ft_memcmp(s, sCpy, 4));
-	/* 2 */ check(!ft_memcmp(s, s2, 0));
-	/* 3 */ check(ft_memcmp(s, s2, 1) > 0);
-	/* 4 */ check(ft_memcmp(s2, s, 1) < 0);
-	/* 5 */ check(ft_memcmp(s2, s3, 4) != 0);
+	char haystack[30] = "aaabcabcd";
+	char needle[10] = "aabc";
+	char * empty = (char*)"";
+/* 10 */ check(ft_strnstr(haystack, "abcd", 9) == haystack + 5);
 	return (0);
 }
