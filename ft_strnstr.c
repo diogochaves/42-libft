@@ -11,26 +11,20 @@
 
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
-	char	*marker;
 	size_t	i;
+	size_t	j;
 
-	marker = (char *)big;
-	i = 0;
-	while (*big && len--)
+	j = 0;
+	if (!little[0])
+		return ((char *)big);
+	while (big[j])
 	{
+		i = 0;
+		while (big[j + i] == little[i] && little[i] && len > (j + i))
+			i++;
 		if (!little[i])
-			return (marker);
-		if (*big == little[i++])
-		{
-			if (!marker)
-				marker = (char *)big;
-		}
-		else
-		{
-			marker = 0;
-			i = 0;
-		}
-		big++;
+			return ((char *)big + j);
+		j++;
 	}
 	return (0);
 }
