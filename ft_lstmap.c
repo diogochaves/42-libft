@@ -17,8 +17,14 @@
 
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
-	//t_list	*lst_cpy;
+	t_list	*lst_cpy;
+	t_list	**lst_start;
 
-	//ft_lstiter(lst, *(*f));
-	return (0);
+	while (lst)
+	{
+		lst_cpy = ft_lstnew(f(lst->content));
+		ft_lstadd_back(lst_start, lst_cpy);
+		lst = lst->next;
+	}
+	return (lst_start);
 }
