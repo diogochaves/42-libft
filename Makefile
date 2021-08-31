@@ -51,7 +51,6 @@ SRCSB	:=	ft_lstnew.c \
 			ft_lstiter.c \
 			ft_lstmap.c
 
-
 OBJS	:=	$(SRCS:%.c=%.o)
 
 BONUS	:=	$(SRCSB:%.c=%.o)

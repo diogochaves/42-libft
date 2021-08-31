@@ -1,8 +1,14 @@
-// ft_lstclear
-//
+// DESCRIPTION
 // Deletes and frees the given element and every successor of that element,
-// using the function ’del’ and free(3). Finally, the pointer to the list must
+// using the function DEL and free(3). Finally, the pointer to the list must
 // be set to NULL.
+
+// PARAMETERS
+// #1. The adress of a pointer to an element.
+// #2. The adress of the function used to delete the content of the element.
+
+// RETURN VALUE
+// -
 
 #include "libft.h"
 

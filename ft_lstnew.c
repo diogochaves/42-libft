@@ -1,8 +1,13 @@
-// ft_lstnew
-//
-// Allocates (with malloc(3)) and returns a new element. The variable ’content’
-// is initialized with the value of the parameter ’content’. The variable
-// ’next’ is initialized to NULL.
+// DESCRIPTION
+// Allocates (with malloc(3)) and returns a new element. The variable CONTENT
+// is initialized with the value of the parameter CONTENT. The variable
+// NEXT is initialized to NULL.
+
+// PARAMETERS
+// #1. The content to create the new element with.
+
+// RETURN VALUE
+// The new element.
 
 #include "libft.h"
 
