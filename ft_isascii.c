@@ -1,12 +1,14 @@
-// DESCRIPTION
-// Checks whether c is a 7-bit unsigned char value that fits into the ASCII
-// character set.
-
-// PARAMETERS
-// #1. the char to check.
-
-// RETURN VALUE
-// 1 if the character C falls into the tested class, and 0 if not.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_isascii.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 10:09:39 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 10:09:40 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

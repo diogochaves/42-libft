@@ -1,15 +1,14 @@
-// DESCRIPTION
-// Compares the first N bytes (each interpreted as unsigned char) of the memory
-// areas S1 and S2.
-
-// PARAMETERS
-// #1. the 1st memmory area.
-// #2. the 2nd memmory area.
-// #3. the number of bytes to compare.
-
-// RETURN VALUE
-// An integer less than, equal to, or greater than zero if S1 is found,
-// respectively, to be less than, to match, or be greater than S2.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memcmp.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 15:42:55 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 15:42:58 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

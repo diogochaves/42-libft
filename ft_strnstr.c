@@ -1,17 +1,14 @@
-// DESCRIPTION
-// Locates the first occurrence of the null-terminated string LITTLE in the
-// string BIG, where not more than LEN characters are searched. Characters that
-// appear after a ‘\0’ character are not searched.
-
-// PARAMETERS
-// #1. the string to search.
-// #2. the string to find.
-// #3. the number of char.
-
-// RETURN VALUE
-// If LITTLE is an empty string, BIG is returned; if LITTLE occurs nowhere in
-// BIG, NULL is returned; otherwise a pointer to the first character of the
-// first occurrence of LITTLE is returned.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strnstr.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 15:44:58 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 15:45:00 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

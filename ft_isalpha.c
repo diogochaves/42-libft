@@ -1,12 +1,14 @@
-// DESCRIPTION
-// Checks for an alphabetic character. In the standard "C" locale, it is
-// equivalent to (isupper(c) || islower(c)).
-
-// PARAMETERS
-// #1. the char to check.
-
-// RETURN VALUE
-// 1 if the character C falls into the tested class, and 0 if not.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_isalpha.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 10:04:09 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 10:04:16 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

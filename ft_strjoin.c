@@ -1,13 +1,14 @@
-// DESCRIPTION
-// Allocates (with malloc(3)) and returns a new string, which is the result of
-// the concatenation of S1 and S2.
-
-// PARAMETERS
-// #1. The prefix string.
-// #2. The suffix string.
-
-// RETURN VALUE
-// The new string. NULL if the allocation fails.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strjoin.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 15:55:25 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 15:55:26 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

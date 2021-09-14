@@ -1,12 +1,14 @@
-// DESCRIPTION
-// Convert a uppercase letter to lowercase.
-
-// PARAMETERS
-// #1. the char to convert.
-
-// RETURN VALUE
-// If C is a uppercase letter, returns its lowercase equivalent. Otherwise, it
-// returns C.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_tolower.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 10:43:14 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 10:43:17 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

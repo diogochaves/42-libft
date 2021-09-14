@@ -1,14 +1,14 @@
-// DESCRIPTION
-// Fills the first N bytes of the memory area pointed to by S with the constant
-// byte C.
-
-// PARAMETERS
-// #1. The pointer to the memory area.
-// #2. The byte to set.
-// #3. The quantity of bytes to set.
-
-// RETURN VALUE
-// A pointer to the memory area S.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memset.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 10:21:32 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 10:21:33 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

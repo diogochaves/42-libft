@@ -1,13 +1,14 @@
-// DESCRIPTION
-// Erases the data in the N bytes of the memory starting at the location
-// pointed to by S, by writing zeroes (bytes containing '\0') to that area.
-
-// PARAMETERS
-// #1. The pointer to the memory area.
-// #2. The quantity of bytes to erase.
-
-// RETURN VALUE
-// -
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 10:25:15 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 10:25:16 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

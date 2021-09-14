@@ -1,15 +1,14 @@
-// DESCRIPTION
-// Allocates (with malloc(3)) and returns an array of strings obtained by
-// splitting ’s’ using the character ’c’ as a delimiter. The array must be
-// ended by a NULL pointer.
-
-// PARAMETERS
-// #1. The string to be split.
-// #2. The delimiter character.
-
-// RETURN VALUE
-// The array of new strings resulting from the split. NULL if the allocation
-// fails.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_split.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 15:58:41 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 15:58:42 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

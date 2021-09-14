@@ -1,11 +1,14 @@
-// DESCRIPTION
-// Checks for any printable character, including space.
-
-// PARAMETERS
-// #1. the char to check.
-
-// RETURN VALUE
-// 1 if the character C falls into the tested class, and 0 if not.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_isprint.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 10:12:56 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 10:12:57 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

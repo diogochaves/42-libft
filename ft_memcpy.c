@@ -1,14 +1,14 @@
-// DESCRIPTION
-// Copies N bytes from memory area SRC to memory area DEST. The memory areas
-// must not overlap.
-
-// PARAMETERS
-// #1. The pointer to the memory area DEST.
-// #2. The pointer to the memory area SCR.
-// #3. The quantity of bytes to copy.
-
-// RETURN VALUE
-// A pointer to the memory area DEST.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 10:28:29 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 10:28:30 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

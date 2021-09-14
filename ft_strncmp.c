@@ -1,14 +1,14 @@
-// DESCRIPTION
-// Compares the first (at most) N bytes the two strings S1 and S2.
-
-// PARAMETERS
-// #1. the 1st string to compare.
-// #2. the 2nd string to compare.
-// #3. the number of bytes to compare.
-
-// RETURN VALUE
-// An integer less than, equal to, or greater than zero if S1 is found,
-// respectively, to be less than, to match, or be greater than S2.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strncmp.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 15:37:06 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 15:37:12 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

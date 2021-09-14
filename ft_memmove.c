@@ -1,14 +1,14 @@
-// DESCRIPTION
-// Copies N bytes from memory area SRC to memory area DEST. The memory areas
-// may overlap.
-
-// PARAMETERS
-// #1. The pointer to the memory area DEST.
-// #2. The pointer to the memory area SCR.
-// #3. The quantity of bytes to copy.
-
-// RETURN VALUE
-// A pointer to the memory area DEST.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memmove.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 10:34:41 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 10:34:43 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 /*
  If the destination is above the source, we have to copy

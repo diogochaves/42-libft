@@ -1,14 +1,19 @@
-// DESCRIPTION
-// Locate the first occurrence of character in string.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strchr.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 15:31:49 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 15:34:15 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-// PARAMETERS
-// #1. the string to search.
-// #2. the char to find.
-
-// RETURN VALUE
-// A pointer to the matched character or NULL if the character is not found.
-// The terminating null byte is considered part of the string, so that if C is
-// specified as '\0', the function return a pointer to the terminator.
+/*
+ The terminating null byte is considered part of the string, so that if C is
+ specified as '\0', the function return a pointer to the terminator.
+*/
 
 #include "libft.h"
 

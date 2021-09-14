@@ -1,12 +1,14 @@
-// DESCRIPTION
-// Calculates the length of the string pointed to by S, excluding the
-// terminating null byte ('\0').
-
-// PARAMETERS
-// #1. The string to count.
-
-// RETURN VALUE
-// The lenght of the string.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 10:13:53 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 10:13:56 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

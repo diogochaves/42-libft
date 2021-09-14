@@ -1,14 +1,14 @@
-// DESCRIPTION
-// Allocates (with malloc(3)) and returns a substring from the string S.
-// The substring begins at index START and is of maximum size LEN.
-
-// PARAMETERS
-// #1. The string from which to create the substring.
-// #2. The start index of the substring in the string S.
-// #3. The maximum length of the substring.
-
-// RETURN VALUE
-// The substring. NULL if the allocation fails.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_substr.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 15:53:29 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 15:53:34 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

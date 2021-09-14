@@ -1,15 +1,19 @@
-// DESCRIPTION
-// Scans the initial N bytes of the memory area pointed to by S for the first
-// instance of C. Both C and the bytes of the memory area pointed to by S are
-// interpreted as unsigned char.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memchr.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 15:39:06 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 15:40:20 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-// PARAMETERS
-// #1. the memmory area to search.
-// #2. the char to find.
-
-// RETURN VALUE
-// A pointer to the matching byte or NULL if the character does not occur in
-// the given memory area
+/*
+ Both C and the bytes of the memory area pointed to by S are interpreted as
+ unsigned char.
+*/
 
 #include "libft.h"
 

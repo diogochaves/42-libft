@@ -1,12 +1,14 @@
-// DESCRIPTION
-// Duplicates the string S.
-
-// PARAMETERS
-// #1. the string to duplicate.
-
-// RETURN VALUE
-// A pointer to the duplicated string. It returns NULL if insufficient memory
-// was available, with errno set to indicate the cause of the error.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strdup.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 15:50:49 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 15:50:51 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

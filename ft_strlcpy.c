@@ -1,14 +1,14 @@
-// DESCRIPTION
-// Copies up to (SIZE - 1) characters from the NUL-terminated string SRC to
-// DST, NUL-terminating the result.
-
-// PARAMETERS
-// #1. The pointer to the memory area DST.
-// #2. The pointer to the memory area SCR.
-// #3. The quantity of bytes to copy.
-
-// RETURN VALUE
-// The total length of the string it tried to create (length of SRC).
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strlcpy.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 10:32:54 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 10:32:57 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 /*
  Strlcpy() take the full size of the buffer (not just the length) and

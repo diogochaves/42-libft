@@ -1,13 +1,14 @@
-// DESCRIPTION
-// Allocates (with malloc(3)) and returns a copy of S1 with the characters
-// specified in SET removed from the beginning and the end of the string.
-
-// PARAMETERS
-// #1. The string to be trimmed.
-// #2. The reference set of characters to trim.
-
-// RETURN VALUE
-// The trimmed string. NULL if the allocation fails.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strtrim.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 15:57:56 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 15:57:58 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

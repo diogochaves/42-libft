@@ -1,12 +1,14 @@
-// DESCRIPTION
-// Checks for an alphanumeric character; it is equivalent to
-// (isalpha(c) || isdigit(c)).
-
-// PARAMETERS
-// #1. the char to check.
-
-// RETURN VALUE
-// 1 if the character C falls into the tested class, and 0 if not.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_isalnum.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 10:05:58 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 10:06:00 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

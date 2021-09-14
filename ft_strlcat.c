@@ -1,15 +1,14 @@
-// DESCRIPTION
-// Appends the NUL-terminated string SRC to the end of DST. It will append at
-// most (SIZE - strlen(DST) - 1 byte), NUL-terminating the result.
-
-// PARAMETERS
-// #1. The pointer to the memory area DST.
-// #2. The pointer to the memory area SCR.
-// #3. The quantity of bytes to append.
-
-// RETURN VALUE
-// The total length of the string it tried to create (the initial length of DST
-// plus the length of SRC).
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strlcat.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 10:39:45 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 10:39:48 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 /*
  strlcat() take the full size of the buffer (not just the length) and

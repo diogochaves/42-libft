@@ -1,13 +1,14 @@
-// DESCRIPTION
-// Converts the initial portion of the string pointed to by NPTR to int.
-// The string may begin with an arbitrary amount of white space (as determined
-// by isspace(3)) followed by a single optional '+' or '-' sign.
-
-// PARAMETERS
-// #1. the char to convert.
-
-// RETURN VALUE
-// The integer value.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_atoi.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 15:47:53 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 15:47:55 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 
