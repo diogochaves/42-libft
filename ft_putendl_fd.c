@@ -1,12 +1,14 @@
-// DESCRIPTION
-// Outputs the string S to the given file descriptor, followed by a newline.
-
-// PARAMETERS
-// #1. The string to output.
-// #2. The file descriptor on which to write.
-
-// RETURN VALUE
-// -
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 20:21:56 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 20:21:57 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

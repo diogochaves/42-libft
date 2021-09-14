@@ -1,11 +1,14 @@
-// DESCRIPTION
-// Counts the number of elements in a list.
-
-// PARAMETERS
-// #1. The beginning of the list.
-
-// RETURN VALUE
-// Length of the list.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_lstsize.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 20:26:06 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 20:26:07 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

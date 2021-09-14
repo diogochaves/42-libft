@@ -1,11 +1,14 @@
-// DESCRIPTION
-// Returns the last element of the list.
-
-// PARAMETERS
-// #1. The beginning of the list.
-
-// RETURN VALUE
-// Last element of the list.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_lstlast.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 20:26:41 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 20:26:41 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

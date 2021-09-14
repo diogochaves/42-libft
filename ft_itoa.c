@@ -1,12 +1,14 @@
-// DESCRIPTION
-// Allocates (with malloc(3)) and returns a string representing the integer
-// received as an argument. Negative numbers must be handled.
-
-// PARAMETERS
-// #1. the integer to convert.
-
-// RETURN VALUE
-// The string representing the integer. NULL if the allocation fails.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_itoa.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 20:14:12 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 20:14:16 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

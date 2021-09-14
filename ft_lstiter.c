@@ -1,13 +1,14 @@
-// DESCRIPTION
-// Iterates the list LST and applies the function F to the content of each
-// element.
-
-// PARAMETERS
-// #1. The adress of a pointer to an element.
-// #2. The adress of the function used to iterate on the list.
-
-// RETURN VALUE
-// -
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_lstiter.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 20:31:35 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 20:31:35 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

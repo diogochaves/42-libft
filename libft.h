@@ -290,25 +290,153 @@ char	*ft_strtrim(char const *s1, char const *set);
  */
 char	**ft_split(char const *s, char c);
 
-
-
+/**
+ * @brief Allocates and returns a string representing the integer received as
+ * an argument.
+ *
+ * @param n The integer to convert.
+ * @return The string representing the integer. NULL if the allocation fails.
+ */
 char	*ft_itoa(int n);
+
+/**
+ * @brief Applies the function F to each character of the string S to create a
+ * new string resulting from successive applications of F.
+ *
+ * @param s The string on which to iterate.
+ * @param f The function to apply to each character.
+ * @return The string created from the successive applications of F. Returns
+ * NULL if the allocation fails.
+ */
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
+
+/**
+ * @brief Applies the function F to each character of the string passed as
+ * argument, and passing its index as first argument. Each character is passed
+ * by address to F to be modified if necessary
+ *
+ * @param s The string on which to iterate.
+ * @param f The function to apply to each character.
+ */
 void	ft_striteri(char *s, void (*f)(unsigned int, char*));
+
+/**
+ * @brief Outputs the character C to the given file descriptor.
+ *
+ * @param c The character to output.
+ * @param fd The file descriptor on which to write.
+ */
 void	ft_putchar_fd(char c, int fd);
+
+/**
+ * @brief Outputs the string S to the given file descriptor.
+ *
+ * @param s The string to output.
+ * @param fd The file descriptor on which to write.
+ */
 void	ft_putstr_fd(char *s, int fd);
+
+/**
+ * @brief Outputs the string S to the given file descriptor, followed by a
+ * newline.
+ *
+ * @param s The string to output.
+ * @param fd The file descriptor on which to write.
+ */
 void	ft_putendl_fd(char *s, int fd);
+
+/**
+ * @brief Outputs the integer N to the given file descriptor.
+ *
+ * @param n The integer to output.
+ * @param fd The file descriptor on which to write.
+ */
 void	ft_putnbr_fd(int n, int fd);
 
-// BONUS
+// BONUS //
+
+/**
+ * @brief Allocates and returns a new element. The variable CONTENT is
+ * initialized with the value of the parameter CONTENT. The variable NEXT is
+ * initialized to NULL.
+ *
+ * @param content The content to create the new element with.
+ * @return The new element.
+ */
 t_list	*ft_lstnew(void *content);
+
+/**
+ * @brief Adds the element NEW at the beginning of the list.
+ *
+ * @param lst The address of a pointer to the first link of a list.
+ * @param new The address of a pointer to the element to be added to the list.
+ */
 void	ft_lstadd_front(t_list **lst, t_list *new);
+
+/**
+ * @brief Counts the number of elements in a list.
+ *
+ * @param lst The beginning of the list.
+ * @return Length of the list.
+ */
 int		ft_lstsize(t_list *lst);
+
+/**
+ * @brief Returns the last element of the list.
+ *
+ * @param lst The beginning of the list.
+ * @return Last element of the list.
+ */
 t_list	*ft_lstlast(t_list *lst);
+
+/**
+ * @brief Adds the element NEW at the end of the list.
+ *
+ * @param lst The address of a pointer to the first link of a list.
+ * @param new The address of a pointer to the element to be added to the list.
+ */
 void	ft_lstadd_back(t_list **lst, t_list *new);
+
+/**
+ * @brief Frees the memory of the element’s content using the function DEL and
+ * free the element.
+ *
+ * @param lst The element to free.
+ * @param del The address of the function used to delete the content.
+ */
 void	ft_lstdelone(t_list *lst, void (*del)(void*));
+
+/**
+ * @brief Deletes and frees the given element and every successor of that
+ * element, using the function DEL and free. Finally, the pointer to the list
+ * is set to NULL.
+ *
+ * @param lst The adress of a pointer to an element.
+ * @param del The adress of the function used to delete the content of the
+ * element.
+ */
 void	ft_lstclear(t_list **lst, void (*del)(void*));
+
+/**
+ * @brief Iterates the list LST and applies the function F to the content of
+ * each element.
+ *
+ * @param lst The adress of a pointer to an element.
+ * @param f The adress of the function used to iterate on the list.
+ */
 void	ft_lstiter(t_list *lst, void (*f)(void *));
+
+/**
+ * @brief Creates a newlist resulting of the successive applications of the
+ * function F on the list LST. The DEL function is used to delete the content
+ * of an element if needed.
+ *
+ * @param lst The adress of a pointer to an element.
+ * @param f The adress of the function used to iterate on the list.
+ * @param del The adress of the function used to delete the content of an
+ * element if needed.
+ * @return The new list. NULL if the allocation fails.
+ */
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 
 #endif

@@ -1,12 +1,14 @@
-// DESCRIPTION
-// Adds the element NEW at the beginning of the list.
-
-// PARAMETERS
-// #1. The address of a pointer to the first link of a list.
-// #2. The address of a pointer to the element to be added to the list.
-
-// RETURN VALUE
-// -
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_lstadd_front.c                                  :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 20:25:23 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 20:25:24 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

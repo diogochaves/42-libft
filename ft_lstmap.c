@@ -1,17 +1,14 @@
-// DESCRIPTION
-// Iterates the list LST and applies the function F to the content of each
-// element. Creates a newlist resulting of the successive applications of the
-// function F. The DEL function is used to delete the content of an element
-// if needed.
-
-// PARAMETERS
-// #1. The adress of a pointer to an element.
-// #2. The adress of the function used to iterate on the list.
-// #3. The adress of the function used to delete the content of an element if
-// needed.
-
-// RETURN VALUE
-// The new list. NULL if the allocation fails.
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_lstmap.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 20:32:14 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 20:32:14 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

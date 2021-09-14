@@ -1,12 +1,14 @@
-// DESCRIPTION
-// Outputs the string S to the given file descriptor.
-
-// PARAMETERS
-// #1. The string to output.
-// #2. The file descriptor on which to write.
-
-// RETURN VALUE
-// -
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 20:20:53 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 20:21:10 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

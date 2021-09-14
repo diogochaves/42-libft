@@ -1,14 +1,14 @@
-// DESCRIPTION
-// Applies the function F to each character of the string passed as argument,
-// and passing its index as first argument. Each character is passed by address
-// to F to be modified if necessary
-
-// PARAMETERS
-// #1. The string on which to iterate.
-// #2. The function to apply to each character.
-
-// RETURN VALUE
-// -
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_striteri.c                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 20:18:22 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 20:18:23 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 

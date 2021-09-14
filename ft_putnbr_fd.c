@@ -1,12 +1,14 @@
-// DESCRIPTION
-// Outputs the integer N to the given file descriptor.
-
-// PARAMETERS
-// #1. The integer to output.
-// #2. The file descriptor on which to write.
-
-// RETURN VALUE
-// -
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dchaves- <dchaves-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/14 20:22:47 by dchaves-          #+#    #+#             */
+/*   Updated: 2021/09/14 20:22:48 by dchaves-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 
